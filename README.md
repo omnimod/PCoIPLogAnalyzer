@@ -20,6 +20,7 @@ Parameters:
 -  -MaxSamples \<int\>    - (optional) Set the maximum number of rows to output. If not defined, the default value is 500.
 
 Examples:
+
   #Analyze log file, and print the report to the console
   
   _Get-PCoIPLogDetails.ps1 -FilePath "C:\Temp\pcoip_server_2017_12_19_000034d0.txt"_
