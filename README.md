@@ -10,7 +10,7 @@ To install PCoIP Log Analyzer simply copy the Get-PCoIPLogDetails.ps1 file from 
 --------
 PCoIP Log Analyzer has some addition parameters:
 
-Get-PCoIPLogDetails.ps1 -FilePath \<string\> [-ResultPath \<string\>] [-ExportHTML] [-NoScreenOutput] [-MaxSamples \<int\>]
+_Get-PCoIPLogDetails.ps1 -FilePath \<string\> [-ResultPath \<string\>] [-ExportHTML] [-NoScreenOutput] [-MaxSamples \<int\>]_
   
 Parameters:
 -  -FilePath \<string\>   - (mandatory) Specify path to the pcoip_server log file.
@@ -22,10 +22,10 @@ Parameters:
 Examples:
   #Analyze log file, and print the report to the console
   
-  Get-PCoIPLogDetails.ps1 -FilePath "C:\Temp\pcoip_server_2017_12_19_000034d0.txt"
+  _Get-PCoIPLogDetails.ps1 -FilePath "C:\Temp\pcoip_server_2017_12_19_000034d0.txt"_
   
   #Analyze log file, generate the report and export it to the HTML file
   
-  Get-PCoIPLogDetails.ps1 -FilePath "C:\Temp\pcoip_server_2017_12_16_00000230.txt" -ResultPath "C:\Temp\report.html" -ExportHTML
+  _Get-PCoIPLogDetails.ps1 -FilePath "C:\Temp\pcoip_server_2017_12_16_00000230.txt" -ResultPath "C:\Temp\report.html" -ExportHTML_
   
 
