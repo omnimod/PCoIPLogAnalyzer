@@ -9,14 +9,14 @@ To install PCoIP Log Analyzer simply copy the Get-PCoIPLogDetails.ps1 file from 
 **Execution**
 --------
 PCoIP Log Analyzer has some addition parameters:
-Get-PCoIPLogDetails.ps1 -FilePath <string> [-ResultPath <string>] [-ExportHTML] [-NoScreenOutput] [-MaxSamples <int>]
+Get-PCoIPLogDetails.ps1 -FilePath \<string\> [-ResultPath \<string\>] [-ExportHTML] [-NoScreenOutput] [-MaxSamples \<int\>]
   
 Parameters:
--  -FilePath <string>   - (mandatory) Specify path to the pcoip_server log file.
--  -ResultPath <string> - (optional) Specify path to export results to the file.
+-  -FilePath \<string\>   - (mandatory) Specify path to the pcoip_server log file.
+-  -ResultPath \<string\> - (optional) Specify path to export results to the file.
 -  -ExportHTML          - (optional) Specify this parameter, if you want to export results in HTML format. By default data is saved in text format.
 -  -NoScreenOutput      - (optional) Specify this parameter, if you want to skip output the result to the console.
--  -MaxSamples <int>    - (optional) Set the maximum number of rows to output. If not defined, the default value is 500.
+-  -MaxSamples \<int\>    - (optional) Set the maximum number of rows to output. If not defined, the default value is 500.
 
 Examples:
   #Analyze log file, and print the report to the console
