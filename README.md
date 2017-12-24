@@ -9,6 +9,7 @@ To install PCoIP Log Analyzer simply copy the Get-PCoIPLogDetails.ps1 file from 
 **Execution**
 --------
 PCoIP Log Analyzer has some addition parameters:
+
 Get-PCoIPLogDetails.ps1 -FilePath \<string\> [-ResultPath \<string\>] [-ExportHTML] [-NoScreenOutput] [-MaxSamples \<int\>]
   
 Parameters:
