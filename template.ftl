@@ -28,20 +28,20 @@
 			</div>
 		</div>
 		
-		<!--Bandwidth block-->	
+		<!--Network block-->	
 		<div class="ui two column stackable grid center aligned container segment">
 			<div class="column">
 				<h4>Network Statistics</h4>
 				<canvas id="NetworkChart" width="600" height="600"></canvas>
 				<div class="ui left aligned container">
-					<p>Total RX, Audio (KBytes): <span id="RXAudioTotal"></span></p>
-					<p>Total RX, Image (KBytes): <span id="RXImageTotal"></span></p>
-					<p>Total RX, Other (KBytes): <span id="RXOtherTotal"></span></p>
-					<p>Total RX (KBytes): <span id="RXTotal"></span></p>
-					<p>Total TX, Audio (KBytes): <span id="TXAudioTotal"></span></p>
-					<p>Total TX, Image (KBytes): <span id="TXImageTotal"></span></p>
-					<p>Total TX, Other (KBytes): <span id="TXOtherTotal"></span></p>
-					<p>Total TX (KBytes): <span id="TXTotal"></span></p>				
+					<p>Total RX, Audio (Packets): <span id="RXAudioTotal"></span></p>
+					<p>Total RX, Image (Packets): <span id="RXImageTotal"></span></p>
+					<p>Total RX, Other (Packets): <span id="RXOtherTotal"></span></p>
+					<p>Total RX (Packets): <span id="RXTotal"></span></p>
+					<p>Total TX, Audio (Packets): <span id="TXAudioTotal"></span></p>
+					<p>Total TX, Image (Packets): <span id="TXImageTotal"></span></p>
+					<p>Total TX, Other (Packets): <span id="TXOtherTotal"></span></p>
+					<p>Total TX (Packets): <span id="TXTotal"></span></p>				
 				</div>	
 			</div>
 			<div class="column">
@@ -108,42 +108,42 @@
 					labels: [${Networkchartlabels}],
 					datasets: [
 					{
-						label: 'Total RX (Audio), KBytes',
+						label: 'Total RX (Audio), Packets',
 						data: [${NetworkchartRXAudio}],
 						borderWidth: 1,
 						borderColor: '#FF0000',
 						backgroundColor: 'rgba(0, 0, 0, 0.0)'
 					},
 					{
-						label: 'Total RX (Image), KBytes',
+						label: 'Total RX (Image), Packets',
 						data: [${NetworkchartRXImage}],
 						borderWidth: 1,
 						borderColor: '#AA0000',
 						backgroundColor: 'rgba(0, 0, 0, 0.0)'
 					},
 					{
-						label: 'Total RX (Other), KBytes',
+						label: 'Total RX (Other), Packets',
 						data: [${NetworkchartRXOther}],
 						borderWidth: 1,
 						borderColor: '#660000',
 						backgroundColor: 'rgba(0, 0, 0, 0.0)'
 					},
 					{
-						label: 'Total TX (Audio), KBytes',
+						label: 'Total TX (Audio), Packets',
 						data: [${NetworkchartTXAudio}],
 						borderWidth: 1,
 						borderColor: '#0000FF',
 						backgroundColor: 'rgba(0, 0, 0, 0.0)'
 					},
 					{
-						label: 'Total TX (Image), KBytes',
+						label: 'Total TX (Image), Packets',
 						data: [${NetworkchartTXImage}],
 						borderWidth: 1,
 						borderColor: '#0000AA',
 						backgroundColor: 'rgba(0, 0, 0, 0.0)'
 					},
 					{
-						label: 'Total TX (Other), KBytes',
+						label: 'Total TX (Other), Packets',
 						data: [${NetworkchartTXOther}],
 						borderWidth: 1,
 						borderColor: '#000066',
