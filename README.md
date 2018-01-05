@@ -49,6 +49,8 @@ Added Import-PCoIPLog, Export-PCoIPStatistics, Show-PCoIPStatistics and Get-PCoI
 
 Added support for Horizon Agent v5.3 and 6.x logs.
 
+Added support to export report to the CSV format.
+
 v1.1 - Fixed display of audio/image/other traffic RX and TX statistics.
 
 v1.0 - Initial release.
