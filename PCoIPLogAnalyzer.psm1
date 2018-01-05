@@ -668,7 +668,7 @@ function global:Show-PCoIPStatistics {
 	$Result += "Log file:               " + $PCoIPLog.LogFile
 	$Result += "Server name:            " + $PCoIPLog.Server.Name
 	$Result += "Server IP address:      " + $PCoIPLog.Server.IP
-	$Result += "Client IP address:      " + $PCoIPLog.Client.Name
+	$Result += "Client IP address:      " + $PCoIPLog.Client.IP
 	$Result += "PCoIP software version: " + $PCoIPLog.Version.Full
 	$Result += "Encryption algorythm:   " + $PCoIPLog.Encryption
 	$Result += "Session start time:     " + $PCoIPLog.StartTime
