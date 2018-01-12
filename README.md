@@ -21,7 +21,7 @@ Parameters:
 
 Examples:
 
-  #Analyze log file, and print the report to the console
+  #Analyze log file and print the report to the console
   
   _Get-PCoIPStatistics -FilePath "C:\Temp\pcoip_server_2017_12_19_000034d0.txt"_
   
@@ -29,7 +29,7 @@ Examples:
   
   _Get-PCoIPStatistics -FilePath "C:\Temp\pcoip_server_2017_12_16_00000230.txt" -ResultPath "C:\Temp\report.html" -Format HTML_
 
-Use PowerShell commandlet Import-PCoIPLog to get an PowerShell object which contains session data from the log file.
+Use PowerShell commandlet Import-PCoIPLog to get a PowerShell object which contains session data from the log file.
 
 _Import-PCoIPLog -FilePath \<string\>_
 
@@ -37,7 +37,7 @@ Parameters:
 -  -FilePath \<string\>   - (mandatory) Specify path to the pcoip_server log file.
 Examples:
 
-  #Get and object from the log file
+  #Get an object from the log file
   
   _$PCoIPLog = Import-PCoIPLog -FilePath "C:\Temp\pcoip_server_2017_12_19_000034d0.txt"_
 
