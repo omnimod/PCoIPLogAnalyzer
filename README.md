@@ -43,6 +43,8 @@ Examples:
 
 **Releases**
 --------
+v2.2 - Added disconnect reason to the reports.
+
 v2.1 - Changed HTML report template. Added zoom capability to HTML reports.
 
 v2.0 - Redesigned to PowerShell module architecture.
