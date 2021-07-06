@@ -256,7 +256,7 @@ function global:Import-PCoIPLog {
 	}
 	
 	function Get-DisconnectReason {
-		$Pattern = 'SERVER :(TERA_DISCONNECT_CAUSE_.+)$'
+		$Pattern = 'map_tera_to_agent_close_code: (TERA_DISCONNECT_CAUSE_.+)$'
 		
 		return Get-Value $Pattern
 	}
